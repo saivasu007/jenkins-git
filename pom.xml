@@ -29,7 +29,7 @@
           <execution>
             <phase>package</phase>
             <goals>
-              <goal>copy</goal>
+              <goal>war</goal>
          </goals>
          </execution>
         </executions>
