@@ -30,6 +30,9 @@
             <resource>
               <!-- this is relative to the pom.xml directory -->
               <directory>WebContent</directory>
+            <includes>
+              <include>*</include>
+            </includes>
             </resource>
           </webResources>
           <failOnMissingWebXml>false</failOnMissingWebXml>
@@ -48,13 +51,6 @@
               <goal>copy</goal>
             </goals>
          <configuration>
-              <outputDirectory>${project.build.directory}/${project.artifactId}</outputDirectory>
-              <resources>          
-                <resource>
-                  <directory>WebContent</directory>
-                  <filtering>false</filtering>
-                </resource>
-              </resources>              
               <artifactItems>
                 <artifactItem>
                   <groupId>com.github.jsimone</groupId>
