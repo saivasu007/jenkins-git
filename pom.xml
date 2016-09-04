@@ -28,12 +28,6 @@
         <configuration>
           <failOnMissingWebXml>false</failOnMissingWebXml>
           <webappDirectory>${project.build.directory}/${project.artifactId}</webappDirectory>
-          <resources>          
-                <resource>
-                  <directory>WebContent</directory>
-                  <filtering>false</filtering>
-                </resource>
-          </resources>              
           <warName>${project.artifactId}</warName>
         </configuration>
       </plugin>
@@ -47,6 +41,15 @@
             <goals>
               <goal>copy</goal>
             </goals>
+         <configuration>
+              <outputDirectory>${project.build.directory}/${project.artifactId}</outputDirectory>
+              <resources>          
+                <resource>
+                  <directory>WebContent</directory>
+                  <filtering>true</filtering>
+                </resource>
+              </resources>              
+            </configuration>            
             <configuration>
               <artifactItems>
                 <artifactItem>
