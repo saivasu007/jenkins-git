@@ -49,8 +49,6 @@
                   <filtering>true</filtering>
                 </resource>
               </resources>              
-            </configuration>            
-            <configuration>
               <artifactItems>
                 <artifactItem>
                   <groupId>com.github.jsimone</groupId>
