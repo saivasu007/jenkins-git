@@ -28,6 +28,12 @@
         <configuration>
           <failOnMissingWebXml>false</failOnMissingWebXml>
           <webappDirectory>${project.build.directory}/${project.artifactId}</webappDirectory>
+          <resources>          
+                <resource>
+                  <directory>WebContent</directory>
+                  <filtering>false</filtering>
+                </resource>
+          </resources>              
           <warName>${project.artifactId}</warName>
         </configuration>
       </plugin>
