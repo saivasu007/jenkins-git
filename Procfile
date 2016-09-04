@@ -1,1 +1,1 @@
-web
+web:jenkins-git app:app
