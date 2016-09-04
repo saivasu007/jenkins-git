@@ -46,7 +46,7 @@
               <resources>          
                 <resource>
                   <directory>WebContent</directory>
-                  <filtering>true</filtering>
+                  <filtering>false</filtering>
                 </resource>
               </resources>              
               <artifactItems>
