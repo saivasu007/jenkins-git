@@ -37,7 +37,7 @@
           <webResources>
             <resource>
               <!-- this is relative to the pom.xml directory -->
-              <directory>WebContent</directory>
+              <directory>WebContent/WEB-INF</directory>
             <includes>
               <include>*</include>
             </includes>
