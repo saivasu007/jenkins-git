@@ -41,7 +41,7 @@
             </resource>
           </resources>
           <failOnMissingWebXml>false</failOnMissingWebXml>
-          <webappDirectory>${project.build.directory}/${project.artifactId}</webappDirectory>
+          <!-- <webappDirectory>${project.build.directory}/${project.artifactId}</webappDirectory> -->
           <warName>${project.artifactId}</warName>
         </configuration>
       </plugin>
